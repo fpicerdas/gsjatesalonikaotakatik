@@ -89,8 +89,11 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="ionic-plugin-keyboard" />
 	<!-- ./default -->
+	<plugin name="com.surfernetwork.audiometadata" />
 	<plugin name="cordova-plugin-dialogs" />
 	<plugin name="cordova-plugin-geolocation" />
+	<plugin name="cordova-plugin-streaming" />
+	<plugin name="cordova-plugin-velda-devicefeedback" />
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="phonegap-plugin-barcodescanner" />
 	<platform name="android">
@@ -146,4 +149,5 @@
 		<splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640"/>
 		<splash height="480" src="resources/ios/splash/Default~iphone.png" width="320"/>
 	</platform>
+	<preference name="phonegap-version" value="cli-9.0.0" />
 </widget>

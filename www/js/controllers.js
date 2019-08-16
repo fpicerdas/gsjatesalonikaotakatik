@@ -1071,7 +1071,9 @@ $ionicConfig.backButton.text("");
 	function controller_by_user(){
 		try {
 			
-$ionicConfig.backButton.text("");			
+$ionicConfig.backButton.text("");
+
+			
 		} catch(e){
 			console.log("%cerror: %cPage: `menu_1` and field: `Custom Controller`","color:blue;font-size:18px","color:red;font-size:18px");
 			console.dir(e);
