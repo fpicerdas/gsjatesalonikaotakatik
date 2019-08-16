@@ -1,0 +1,41 @@
+	<ion-view view-title=" ⠀⠀⠀" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top"  scroll="true"  overflow-scroll="true"   id="page-form_login" class="fullscreen page-form_login">
+		<ion-slide-box show-pager="true" auto-play="true" pager-click="true" >
+	<ion-slide style="background: #999 url('data/images/background/bg7.jpg')  no-repeat center center fixed;;background-size:cover;width:100%;height:100%;background-color:#ddd;" >
+		<div class="text-center light">
+			<div class="padding light dark-bg" style="opacity:0.8;margin-top:80px">
+				<h2>GSJA Tesalonika</h2>
+				<h3>Selamat datang di aplikasi GSJA Tesalonika.</h3>
+              <h4>Silahkan login terlebih dahulu</h4>
+			</div>
+		</div>
+	</ion-slide>
+	<ion-slide style="background: #999 url('data/images/background/bg10.jpg')  no-repeat center center fixed;;background-size:cover;width:100%;height:100%;background-color:#ddd;" >
+		<div class="text-center light">
+			<div class="light dark-bg" style="opacity:0.8;margin-top:-100px">
+				
+<div class="hero no-header flat" >
+    <div class="content">
+        <!--<div class="app-icon" style="background: url('data/images/avatar/pic6.jpg') center;"></div>-->
+        <h2>Silahkan Login</h2>
+    </div>
+</div>
+
+<div class="list">
+    <ion-md-input autocomplete="off" placeholder="Username" highlight-color="balanced" type="text" ng-model="form_user.uname"></ion-md-input>
+    <ion-md-input autocomplete="off" placeholder="Password" highlight-color="energized" type="password" ng-model="form_user.pwd"></ion-md-input>
+</div>
+
+<div class="padding">
+    <button ng-click="submitUser(form_user)" class="button button-full button-assertive ink">Sign In</button>
+    <a ui-sref="gsja_tesalonika.form_user" class="button button-full button-calm ink">Sign Up Here</a>
+</div>
+			</div>
+		</div>
+	</ion-slide>
+</ion-slide-box>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

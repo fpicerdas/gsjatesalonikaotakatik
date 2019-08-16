@@ -1,0 +1,64 @@
+	<ion-view view-title=" Dashboard" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-dashboard" class=" page-dashboard">
+				<div class="dashboard-panel">
+			<div class="item item-title no-border item-dark">Membership</div>
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light positive-bg ink"  ng-href="#/gsja_tesalonika/menu_1" >
+					<i class="icon ion-social-buffer" ></i>
+					<p>{{ "Menu 1" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light positive-900-bg ink"  ng-href="#/gsja_tesalonika/menu_2" >
+					<i class="icon ion-clipboard" ></i>
+					<p>{{ "Menu 2" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			<div class="item item-title no-border item-dark">Account</div>
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light calm-bg ink"  ng-href="#/gsja_tesalonika/profile" >
+					<i class="icon ion-android-person" ></i>
+					<p>{{ "Profile" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			<div class="item item-title no-border item-dark">Help</div>
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light calm-900-bg ink" ng-click="openURL('market://details?id=com.imabuilder.abba.gsjatesalonika')" >
+					<i class="icon ion-android-playstore" ></i>
+					<p>{{ "Rate This App" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light balanced-bg ink"  ng-href="#/gsja_tesalonika/faqs" >
+					<i class="icon ion-ios-help" ></i>
+					<p>{{ "Faqs" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light balanced-900-bg ink"  ng-href="#/gsja_tesalonika/about_us" >
+					<i class="icon ion-help-buoy" ></i>
+					<p>{{ "About Us" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light energized-bg ink"  ng-href="#/gsja_tesalonika/dashboard" >
+					<i class="icon ion-android-cloud" ></i>
+					<p>{{ "Dashboard" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

@@ -1,0 +1,25 @@
+	<ion-view view-title=" Menu 1" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-menu_1" class="page-menu_1">
+		<div class="padding">
+  <div >
+    <h4>Menu 1</h4>
+    <p>This page is under construction. Please come back soon!</p>
+    <div class="item item-input-inset">
+  <label class="item-input-wrapper">
+    <input ng-model="barcode_input" type="text" placeholder="shake your phone">
+  </label>
+  <a class="button button-small" barcode-scanner barcode-text="barcode_input">Bar Scanner</a>
+</div>
+    <div class="item item-input-inset">
+  <label class="item-input-wrapper">
+    <input ng-model="geo_input" type="text" >
+  </label>
+  <a class="button button-small" geo-location geo-text="geo_input">Location</a>
+</div>
+  </div>
+</div>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
